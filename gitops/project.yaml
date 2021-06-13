@@ -22,8 +22,6 @@ spec:
   - group: rbac.authorization.k8s.io
     kind: ClusterRoleBinding
   destinations:
-  - namespace: default
-    server: https://kubernetes.default.svc
   - namespace: argocd
     server: https://kubernetes.default.svc
   - namespace: cert-manager
@@ -33,6 +31,8 @@ spec:
   - namespace: kube-system
     server: https://kubernetes.default.svc
   - namespace: linkerd
+    server: https://kubernetes.default.svc
+  - namespace: test-deploy
     server: https://kubernetes.default.svc
   sourceRepos:
   - git://git-server.scm:9418/linkerd-examples.git
