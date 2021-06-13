@@ -8,8 +8,8 @@ metadata:
 spec:
   destination:
     namespace: argocd
-    server: {{ .Values.spec.destination.server }}
-    # server: https://kubernetes.default.svc
+    # server: {{ .Values.spec.destination.server }}
+    server: https://kubernetes.default.svc
   project: demo
   source:
     path: guestbook
