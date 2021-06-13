@@ -32,8 +32,6 @@ spec:
     server: https://kubernetes.default.svc
   - namespace: linkerd
     server: https://kubernetes.default.svc
-  - namespace: test-deploy
-    server: https://kubernetes.default.svc
   sourceRepos:
   - git://git-server.scm:9418/linkerd-examples.git
   - https://charts.jetstack.io
