@@ -12,6 +12,6 @@ spec:
     server: https://kubernetes.default.svc
   project: demo
   source:
-    path: guestbook
+    path: gitops/argo-apps
     repoURL: git://git-server.scm:9418/linkerd-examples.git
     targetRevision: HEAD
