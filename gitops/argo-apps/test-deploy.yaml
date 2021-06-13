@@ -17,6 +17,6 @@ spec:
     path: guestbook
     # path: apps
     # path: test-deploy
-    repoURL: https://github.com/argoproj/argocd-example-apps
-    # repoURL: https://github.com/kmpartner/argo-demo.git
+    # repoURL: https://github.com/argoproj/argocd-example-apps
+    repoURL: https://github.com/kmpartner/argo-demo.git
     targetRevision: HEAD
