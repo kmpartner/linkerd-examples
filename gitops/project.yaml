@@ -42,5 +42,6 @@ spec:
   # - https://kubernetes-charts.storage.googleapis.com
   - https://charts.helm.sh/stable
 
+  - https://github.com/argoproj/argocd-example-apps
   - https://github.com/kmpartner/linkerd-examples.git
   - https://github.com/kmpartner/argo-demo.git
